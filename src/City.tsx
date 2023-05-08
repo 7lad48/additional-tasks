@@ -25,9 +25,12 @@ export const City = (props: CityPropsType) => {
 };
 
 const Wrapper = styled.div`
+  margin-top: 30px;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   font-size: 30px; 
+  gap: 20px;
 `
 
 
